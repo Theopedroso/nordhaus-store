@@ -1,109 +1,253 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NordHaus | Mobiliário Contemporâneo</title>
+  <meta
+    name="description"
+    content="NordHaus — mobiliário contemporâneo com influência nórdica, materiais duráveis e estética atemporal."
+  />
 
-<title>Atlas Commerce | Design e Lifestyle</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">NordHaus</a>
 
-<header class="header">
-<div class="container nav">
+      <nav class="menu">
+        <a href="#colecao">Coleção</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-<div class="logo">ATLAS</div>
+      <a href="#contato" class="btn btn-dark">Solicitar atendimento</a>
+    </div>
+  </header>
 
-<nav class="menu">
-<a href="#">Coleção</a>
-<a href="#">Ambientes</a>
-<a href="#">Sobre</a>
-<a href="#">Contato</a>
-</nav>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">MOBILIÁRIO CONTEMPORÂNEO</p>
 
-<a href="#" class="btn">Carrinho</a>
+          <h1>
+            Peças para ambientes que
+            exigem <span>presença, equilíbrio e permanência</span>.
+          </h1>
 
-</div>
-</header>
+          <p class="hero-description">
+            A NordHaus atua na curadoria e desenvolvimento de mobiliário com influência
+            nórdica, foco em materialidade e estética atemporal. Uma abordagem pensada
+            para espaços que valorizam proporção, sobriedade e identidade.
+          </p>
 
-<section class="hero">
+          <div class="hero-actions">
+            <a href="#colecao" class="btn btn-primary">Explorar coleção</a>
+            <a href="#sobre" class="btn btn-light">Conhecer a marca</a>
+          </div>
+        </div>
 
-<div class="container hero-grid">
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img
+              src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80"
+              alt="Ambiente contemporâneo NordHaus"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="hero-text">
-<h1>
-Design funcional para ambientes que comunicam presença.
-</h1>
+    <section class="trusted-bar">
+      <div class="container trusted-grid">
+        <span>Curadoria autoral</span>
+        <span>Materiais selecionados</span>
+        <span>Estética atemporal</span>
+        <span>Atendimento consultivo</span>
+      </div>
+    </section>
 
-<p>
-Peças selecionadas para composição de espaços sofisticados,
-com foco em materialidade, proporção e identidade visual.
-</p>
+    <section class="section" id="colecao">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">COLEÇÃO</p>
+          <h2>Uma seleção orientada por forma, função e permanência visual.</h2>
+          <p>
+            Produtos com desenho limpo, acabamento preciso e presença discreta.
+          </p>
+        </div>
 
-<a href="#" class="btn">Explorar coleção</a>
-</div>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=80"
+                alt="Cadeira Vértice"
+              />
+            </div>
+            <div class="product-content">
+              <p class="product-category">Assentos</p>
+              <h3>Cadeira Vértice</h3>
+              <p>
+                Estrutura em madeira maciça com acabamento fosco. Desenvolvida para compor
+                espaços com conforto e presença visual discreta.
+              </p>
+              <div class="product-bottom">
+                <strong>R$ 1.890</strong>
+                <a href="#contato" class="product-link">Detalhes</a>
+              </div>
+            </div>
+          </article>
 
-<div class="hero-img"></div>
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&fit=crop&w=1200&q=80"
+                alt="Mesa Axis"
+              />
+            </div>
+            <div class="product-content">
+              <p class="product-category">Mesas</p>
+              <h3>Mesa Axis</h3>
+              <p>
+                Mesa lateral com desenho geométrico e superfície em madeira clara,
+                pensada para ambientes contemporâneos e composição sofisticada.
+              </p>
+              <div class="product-bottom">
+                <strong>R$ 3.490</strong>
+                <a href="#contato" class="product-link">Detalhes</a>
+              </div>
+            </div>
+          </article>
 
-</div>
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1200&q=80"
+                alt="Luminária Halo"
+              />
+            </div>
+            <div class="product-content">
+              <p class="product-category">Iluminação</p>
+              <h3>Luminária Halo</h3>
+              <p>
+                Peça de iluminação com linhas minimalistas e acabamento metálico sutil,
+                voltada para composições de leitura mais arquitetônica.
+              </p>
+              <div class="product-bottom">
+                <strong>R$ 980</strong>
+                <a href="#contato" class="product-link">Detalhes</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <section class="section dark-section" id="sobre">
+      <div class="container about-layout">
+        <div class="about-copy">
+          <p class="section-tag">SOBRE A MARCA</p>
+          <h2>Uma abordagem mais racional ao design de interiores.</h2>
+          <p>
+            A NordHaus nasceu da busca por uma linguagem visual mais contida, coerente
+            e durável. Em vez de tendências passageiras, a marca trabalha com peças que
+            valorizam proporção, neutralidade e consistência formal.
+          </p>
+          <p>
+            O resultado é uma coleção pensada para ambientes que querem comunicar
+            sofisticação sem excesso, com foco em longevidade estética e qualidade material.
+          </p>
+        </div>
 
-<section class="section">
+        <div class="about-panel">
+          <div class="about-box">
+            <strong>Posicionamento</strong>
+            <span>Design contemporâneo com influência escandinava</span>
+          </div>
+          <div class="about-box">
+            <strong>Atuação</strong>
+            <span>Curadoria e desenvolvimento de mobiliário</span>
+          </div>
+          <div class="about-box">
+            <strong>Foco</strong>
+            <span>Ambientes residenciais e corporativos de alto padrão</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="container">
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">DIFERENCIAIS</p>
+          <h2>O que sustenta a identidade da NordHaus.</h2>
+        </div>
 
-<h2>Seleção curada</h2>
+        <div class="features-grid">
+          <article class="feature-card">
+            <h3>Curadoria consistente</h3>
+            <p>
+              Cada peça é selecionada com base em linguagem formal, durabilidade e compatibilidade estética.
+            </p>
+          </article>
 
-<div class="products">
+          <article class="feature-card">
+            <h3>Materialidade</h3>
+            <p>
+              Escolha de materiais e acabamentos pensada para resistência, textura e leitura visual equilibrada.
+            </p>
+          </article>
 
-<div class="product">
-<div class="product-img"></div>
-<h3>Cadeira Vértice</h3>
-<span>R$ 1.890</span>
-</div>
+          <article class="feature-card">
+            <h3>Atendimento consultivo</h3>
+            <p>
+              Orientação para seleção de peças de acordo com o ambiente, a função e o posicionamento do espaço.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<div class="product">
-<div class="product-img"></div>
-<h3>Mesa Axis</h3>
-<span>R$ 3.490</span>
-</div>
+    <section class="section quote-section">
+      <div class="container quote-box">
+        <p>
+          “Acreditamos em ambientes que não gritam. Ambientes que se impõem pela coerência.”
+        </p>
+      </div>
+    </section>
 
-<div class="product">
-<div class="product-img"></div>
-<h3>Luminária Halo</h3>
-<span>R$ 980</span>
-</div>
+    <section class="section" id="contato">
+      <div class="container contact-box">
+        <p class="section-tag">CONTATO</p>
+        <h2>Solicite atendimento para conhecer a coleção.</h2>
+        <p>
+          Atendimento consultivo para seleção de peças, composição de ambientes
+          e informações comerciais.
+        </p>
 
-</div>
+        <div class="contact-actions">
+          <a href="#" class="btn btn-primary">Solicitar atendimento</a>
+          <a href="#" class="btn btn-light">Baixar catálogo</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-</div>
-
-</section>
-
-<section class="section dark">
-
-<div class="container">
-
-<h2>Posicionamento</h2>
-
-<p>
-A Atlas Commerce trabalha com uma curadoria focada em qualidade,
-durabilidade e estética contemporânea.
-</p>
-
-</div>
-
-</section>
-
-<footer class="footer">
-© Atlas Commerce 2026
-</footer>
-
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 NordHaus. Todos os direitos reservados.</p>
+      <p>Mobiliário contemporâneo.</p>
+    </div>
+  </footer>
 </body>
 </html>
