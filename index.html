@@ -1,315 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NordHaus | Loja Premium</title>
-  <meta
-    name="description"
-    content="Loja premium de decoração e lifestyle com design elegante e experiência moderna."
-  />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-  <link rel="stylesheet" href="style.css" />
+<title>Atlas Commerce | Design e Lifestyle</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <div class="bg-blur blur-1"></div>
-  <div class="bg-blur blur-2"></div>
 
-  <header class="header">
-    <div class="container nav">
-      <a href="#" class="brand">NordHaus</a>
+<header class="header">
+<div class="container nav">
 
-      <nav class="menu">
-        <a href="#inicio">Início</a>
-        <a href="#colecao">Coleção</a>
-        <a href="#beneficios">Benefícios</a>
-        <a href="#contato">Contato</a>
-      </nav>
+<div class="logo">ATLAS</div>
 
-      <button class="cart-button" id="openCartBtn" aria-label="Abrir carrinho">
-        Carrinho
-        <span id="cartCount">0</span>
-      </button>
-    </div>
-  </header>
+<nav class="menu">
+<a href="#">Coleção</a>
+<a href="#">Ambientes</a>
+<a href="#">Sobre</a>
+<a href="#">Contato</a>
+</nav>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <p class="eyebrow">DECORAÇÃO & LIFESTYLE</p>
-          <h1>
-            Design elegante para
-            <span>transformar seus ambientes</span>.
-          </h1>
-          <p class="hero-description">
-            Peças selecionadas para quem valoriza estética, conforto e sofisticação
-            no dia a dia. Uma experiência de compra moderna, limpa e premium.
-          </p>
+<a href="#" class="btn">Carrinho</a>
 
-          <div class="hero-actions">
-            <a href="#colecao" class="btn btn-primary">Ver coleção</a>
-            <a href="#beneficios" class="btn btn-secondary">Saiba mais</a>
-          </div>
-        </div>
+</div>
+</header>
 
-        <div class="hero-card">
-          <div class="hero-badge">Nova coleção</div>
-          <h3>Ambientes mais sofisticados</h3>
-          <p>
-            Curadoria premium de itens para sala, home office e decoração contemporânea.
-          </p>
+<section class="hero">
 
-          <div class="hero-mini-list">
-            <div>
-              <strong>+1.200</strong>
-              <span>clientes atendidos</span>
-            </div>
-            <div>
-              <strong>4.9/5</strong>
-              <span>avaliação média</span>
-            </div>
-            <div>
-              <strong>Envio</strong>
-              <span>para todo Brasil</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="container hero-grid">
 
-    <section class="section" id="colecao">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">COLEÇÃO</p>
-          <h2>Produtos com aparência, nome e preço mais realistas.</h2>
-          <p>
-            Uma vitrine mais coerente e profissional, com foco em credibilidade visual.
-          </p>
-        </div>
+<div class="hero-text">
+<h1>
+Design funcional para ambientes que comunicam presença.
+</h1>
 
-        <div class="products-grid">
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
-                alt="Luminária de mesa"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Iluminação</p>
-              <h3>Luminária Aura Desk</h3>
-              <p class="product-description">
-                Luminária de mesa com acabamento fosco e design minimalista para home office.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 289,90</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Luminária Aura Desk"
-                  data-price="289.90"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
+<p>
+Peças selecionadas para composição de espaços sofisticados,
+com foco em materialidade, proporção e identidade visual.
+</p>
 
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=80"
-                alt="Poltrona moderna"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Mobiliário</p>
-              <h3>Poltrona Oslo Linen</h3>
-              <p class="product-description">
-                Poltrona compacta com visual contemporâneo e tecido em tom neutro elegante.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 1.390,00</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Poltrona Oslo Linen"
-                  data-price="1390.00"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
+<a href="#" class="btn">Explorar coleção</a>
+</div>
 
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&fit=crop&w=1200&q=80"
-                alt="Mesa lateral"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Decoração</p>
-              <h3>Mesa Lateral Nørd</h3>
-              <p class="product-description">
-                Mesa lateral em madeira clara com linhas retas e presença sofisticada.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 649,90</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Mesa Lateral Nørd"
-                  data-price="649.90"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
+<div class="hero-img"></div>
 
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1616627451839-a7f90c92cc76?auto=format&fit=crop&w=1200&q=80"
-                alt="Vaso decorativo"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Acessórios</p>
-              <h3>Vaso Cerâmico Terra</h3>
-              <p class="product-description">
-                Peça decorativa em cerâmica texturizada para composições elegantes.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 179,90</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Vaso Cerâmico Terra"
-                  data-price="179.90"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
+</div>
 
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?auto=format&fit=crop&w=1200&q=80"
-                alt="Almofadas decorativas"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Têxtil</p>
-              <h3>Kit Almofadas Loft</h3>
-              <p class="product-description">
-                Conjunto com duas almofadas em tons neutros para composição moderna.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 219,90</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Kit Almofadas Loft"
-                  data-price="219.90"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
+</section>
 
-          <article class="product-card">
-            <div class="product-image-wrap">
-              <img
-                src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1200&q=80"
-                alt="Espelho decorativo"
-              />
-            </div>
-            <div class="product-content">
-              <p class="product-category">Ambiente</p>
-              <h3>Espelho Arc Frame</h3>
-              <p class="product-description">
-                Espelho decorativo com moldura metálica fina e visual clean premium.
-              </p>
-              <div class="product-bottom">
-                <strong>R$ 829,90</strong>
-                <button
-                  class="add-to-cart"
-                  data-name="Espelho Arc Frame"
-                  data-price="829.90"
-                >
-                  Adicionar
-                </button>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+<section class="section">
 
-    <section class="section benefits-section" id="beneficios">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">BENEFÍCIOS</p>
-          <h2>Estrutura de loja mais crível e com mais valor visual.</h2>
-        </div>
+<div class="container">
 
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <h3>Curadoria premium</h3>
-            <p>Produtos com identidade visual consistente e mais sofisticada.</p>
-          </div>
-          <div class="benefit-card">
-            <h3>Entrega nacional</h3>
-            <p>Simulação de operação organizada, moderna e preparada para escalar.</p>
-          </div>
-          <div class="benefit-card">
-            <h3>Checkout intuitivo</h3>
-            <p>Experiência simples, clara e com foco em conversão.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<h2>Seleção curada</h2>
 
-    <section class="section contact-section" id="contato">
-      <div class="container contact-box">
-        <p class="section-tag">CONTATO</p>
-        <h2>Uma loja premium também fortalece muito o portfólio.</h2>
-        <p>
-          Esse tipo de projeto mostra domínio de layout, vitrine, UI e interações reais.
-        </p>
-      </div>
-    </section>
-  </main>
+<div class="products">
 
-  <aside class="cart-drawer" id="cartDrawer">
-    <div class="cart-header">
-      <h3>Seu carrinho</h3>
-      <button class="close-cart" id="closeCartBtn" aria-label="Fechar carrinho">×</button>
-    </div>
+<div class="product">
+<div class="product-img"></div>
+<h3>Cadeira Vértice</h3>
+<span>R$ 1.890</span>
+</div>
 
-    <div class="cart-items" id="cartItems">
-      <p class="empty-cart">Seu carrinho está vazio.</p>
-    </div>
+<div class="product">
+<div class="product-img"></div>
+<h3>Mesa Axis</h3>
+<span>R$ 3.490</span>
+</div>
 
-    <div class="cart-footer">
-      <div class="cart-total">
-        <span>Total</span>
-        <strong id="cartTotal">R$ 0,00</strong>
-      </div>
-      <button class="btn btn-primary full-width">Finalizar compra</button>
-    </div>
-  </aside>
+<div class="product">
+<div class="product-img"></div>
+<h3>Luminária Halo</h3>
+<span>R$ 980</span>
+</div>
 
-  <div class="cart-overlay" id="cartOverlay"></div>
+</div>
 
-  <script src="script.js"></script>
+</div>
+
+</section>
+
+<section class="section dark">
+
+<div class="container">
+
+<h2>Posicionamento</h2>
+
+<p>
+A Atlas Commerce trabalha com uma curadoria focada em qualidade,
+durabilidade e estética contemporânea.
+</p>
+
+</div>
+
+</section>
+
+<footer class="footer">
+© Atlas Commerce 2026
+</footer>
+
 </body>
 </html>
